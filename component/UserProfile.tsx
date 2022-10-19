@@ -36,7 +36,7 @@ const UserProfile = (props: ProfileProps) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000c2b',
     alignItems: 'center',
     justifyContent: 'center',
   },

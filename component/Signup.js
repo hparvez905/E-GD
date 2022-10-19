@@ -5,7 +5,6 @@ const SignUp = () => {
     
     return (
         <View style={styles.container}>
-            <Image style={{width:"60%",height:"15%" , marginBottom:20}}  />
             <Text style={{color:"#ff4d00",fontSize:25,fontWeight:"bold",marginBottom:20}} >নতুন একাউন্ট খুলুন</Text>
             <View style={styles.inputContainer}>
                 <Text style={styles.headField}>ইমেইল</Text>
