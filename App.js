@@ -1,7 +1,7 @@
 
 
 
-import AppNavigator from './component/app.navigation';
+import AppNavigator from './component/Navigator/app.navigation';
 
 
 

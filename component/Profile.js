@@ -1,28 +1,8 @@
 
-import { StyleSheet,Text,View } from 'react-native';
-import Home from '../route/Home';
+import UserNavigator from './Navigator/UserNavigator';
 
-
-
-
-
-export default function App() {
+export default function Profile() {
   return (
-   
-     <View style={styles.container}>
-      <Text>
-        Profile page 
-      </Text>
-     </View>
-    
+    <UserNavigator></UserNavigator>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
