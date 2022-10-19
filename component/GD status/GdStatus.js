@@ -1,23 +1,8 @@
 
-import React from 'react'
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import GdListNavigator from "../Navigator/GdListNavigator";
 
 export default function GdStatus() {
-  
   return (
-    <View style={styles.container}>
-      <Text>Gd list</Text>
-      <StatusBar style="auto" />
-    </View>
+    <GdListNavigator></GdListNavigator>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
