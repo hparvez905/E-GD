@@ -5,6 +5,8 @@ import Login from '../Login';
 import Home from '../../route/Home';
 import Profile from '../Profile';
 import SignUp from '../Signup';
+import Admin from '../Admin/Admin';
+import AdminProfile from '../Admin/AdminProfile';
 
 const { Navigator, Screen}= createNativeStackNavigator();
 
@@ -15,6 +17,8 @@ const AppNavigator  =()=>(
             <Screen name='Login' component={Login}/>
             <Screen name='Profile' component={Profile}/>
             <Screen name='SignUp' component={SignUp}/>
+            <Screen name='Admin' component={Admin}/>
+            <Screen name='AdminProfile' component={AdminProfile}/>
             
 
             

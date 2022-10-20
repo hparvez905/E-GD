@@ -2,13 +2,13 @@ import React from 'react'
 import {StyleSheet,Text,View,Button,Alert,TouchableOpacity,Image,TextInput} from 'react-native'
 
 
-interface LoginProps {
+interface AdminProps {
     navigation: any;
 }
 
-const Admin = (props: LoginProps) => {
+const Admin = (props: AdminProps) => {
   
-    const login =()=>props.navigation.navigate("Home")
+    const AdminProfile =()=>props.navigation.navigate("AdminProfile")
     return (
         <View style={styles.container}>
             
@@ -25,8 +25,8 @@ const Admin = (props: LoginProps) => {
             <TouchableOpacity
                 style={styles.btn}
                 
-                onPress={login}>
-                <Text style={styles.btnText}>সাইন ইন করুন</Text>
+              >
+                <Text style={styles.btnText}   onPress={AdminProfile}>সাইন ইন করুন</Text>
             </TouchableOpacity>
             <TouchableOpacity>
                 <Text style={{color:"#ff4d00",marginTop:10, marginBottom: 20}}

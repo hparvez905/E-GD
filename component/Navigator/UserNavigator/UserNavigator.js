@@ -1,8 +1,8 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import NewGD from '../NewGD/NewGD';
-import GdStatus from '../GD status/GdStatus';
-import UserProfile from '../UserProfile';
+import NewGD from '../../User/NewGD/NewGD';
+import GdStatus from '../../GD status/GdStatus';
+import UserProfile from '../../UserProfile';
 
 const { Navigator, Screen}= createNativeStackNavigator();
 

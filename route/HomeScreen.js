@@ -1,5 +1,5 @@
 import React from 'react'
-import {StyleSheet,Text,View,Button,Alert,TouchableOpacity,Image,TextInput,} from 'react-native'
+import {StyleSheet,Text,View,TouchableOpacity,Image,TextInput,} from 'react-native'
 import { useNavigation } from '@react-navigation/native'
 const HomeScreen = () => {
   const nav=useNavigation();

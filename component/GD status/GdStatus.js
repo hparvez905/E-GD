@@ -1,5 +1,5 @@
 
-import GdListNavigator from "../Navigator/GdListNavigator";
+import GdListNavigator from "../Navigator/UserNavigator/GdListNavigator";
 
 export default function GdStatus() {
   return (

@@ -7,7 +7,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import Login from '../component/Login';
 import Settings from './Settings';
 import SampleGD from './SampleGD';
-import Admin from './Admin';
+import Admin from '../component/Admin/Admin';
 import HomeScreen from './HomeScreen'
 
 const Drawer=createDrawerNavigator();
